@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="95058" started-at="2016-03-15T12:00:04Z" finished-at="2016-03-15T12:01:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="95058" started-at="2016-03-15T12:00:04Z" finished-at="2016-03-15T12:01:39Z">
+      <class name="Tests.SaveCallReport">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="setUp" is-config="true" duration-ms="6599" started-at="2016-03-15T05:00:04Z" finished-at="2016-03-15T05:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_Authenticate_User()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="test_Authenticate_User" duration-ms="4532" started-at="2016-03-15T05:00:10Z" finished-at="2016-03-15T05:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Authenticate_User -->
+        <test-method status="PASS" signature="test_Select_MyAccountTab()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="test_Select_MyAccountTab" duration-ms="11486" started-at="2016-03-15T05:00:15Z" depends-on-methods="Tests.SaveCallReport.test_Authenticate_User" finished-at="2016-03-15T05:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Select_MyAccountTab -->
+        <test-method status="PASS" signature="test_Select_Account()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="test_Select_Account" duration-ms="4685" started-at="2016-03-15T05:00:26Z" depends-on-methods="Tests.SaveCallReport.test_Select_MyAccountTab" finished-at="2016-03-15T05:00:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Select_Account -->
+        <test-method status="PASS" signature="test_Record_Call()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="test_Record_Call" duration-ms="23036" started-at="2016-03-15T05:00:31Z" depends-on-methods="Tests.SaveCallReport.test_Select_Account" finished-at="2016-03-15T05:00:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Record_Call -->
+        <test-method status="PASS" signature="test_Mass_Promo_Call()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="test_Mass_Promo_Call" duration-ms="18823" started-at="2016-03-15T05:00:54Z" depends-on-methods="Tests.SaveCallReport.test_Record_Call" finished-at="2016-03-15T05:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Mass_Promo_Call -->
+        <test-method status="PASS" signature="test_Save()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="test_Save" duration-ms="326" started-at="2016-03-15T05:01:13Z" depends-on-methods="Tests.SaveCallReport.test_Mass_Promo_Call" finished-at="2016-03-15T05:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Save -->
+        <test-method status="PASS" signature="test_Check_Save()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="test_Check_Save" duration-ms="21750" started-at="2016-03-15T05:01:13Z" depends-on-methods="Tests.SaveCallReport.test_Save" finished-at="2016-03-15T05:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Check_Save -->
+        <test-method status="PASS" signature="test_Log_Out()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="test_Log_Out" duration-ms="2706" started-at="2016-03-15T05:01:35Z" depends-on-methods="Tests.SaveCallReport.test_Check_Save" finished-at="2016-03-15T05:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Log_Out -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.SaveCallReport@36d64342]" name="tearDown" is-config="true" duration-ms="1093" started-at="2016-03-15T05:01:38Z" finished-at="2016-03-15T05:01:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.SaveCallReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
